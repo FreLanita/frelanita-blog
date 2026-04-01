@@ -12,6 +12,6 @@ export const githubRepoLink = 'https://github.com/FreLanita'
 // export const discordLink = 'https://discord.gg/XuNFDcDZGj'
 
 /** 无协议前缀域名 */
-export const plainTargetDomain = 'nolebase.ayaka.io'
+export const plainTargetDomain = 'www.frelanita.space'
 /** 完整域名 */
 export const targetDomain = `https://${plainTargetDomain}`
