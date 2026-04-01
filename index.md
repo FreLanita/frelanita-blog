@@ -4,7 +4,7 @@ sidebar: false
 title: 奇了个七 FreLanita
 titleTemplate: 47的精神自留地
 hero:
-  name: g~Nj$3J2^
+  name: FreLanita
   text: 47的精神自留地
   tagline: 你来啦!这里是47的博客，随便逛逛吧~ 欢迎留言哦！
   image:
