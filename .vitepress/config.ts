@@ -134,12 +134,12 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: githubRepoLink },
-      { icon: 'discord', link: discordLink },
+      //{ icon: 'discord', link: discordLink },
     ],
     footer: {
-      message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
       copyright:
-        '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT Nólëbase 的创作者们',
+        'Powered by <a href="https://vitepress.dev/" target="_blank">VitePress</a> & <a href="https://github.com/nolebase/nolebase" target="_blank">Nólëbase</a>',
+      message: ' © 2026 <span style="color: #e25555;">&#9829;</span> <a href="https://www.frelanita.space/" target="_blank">FreLanita</a>',
     },
     search: {
       provider: 'local',
