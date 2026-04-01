@@ -3,7 +3,6 @@ import Components from 'unplugin-vue-components/vite'
 import UnoCSS from 'unocss/vite'
 import Inspect from 'vite-plugin-inspect'
 
-import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { PageProperties, PagePropertiesMarkdownSection } from '@nolebase/vitepress-plugin-page-properties/vite'
 import { ThumbnailHashImages } from '@nolebase/vitepress-plugin-thumbnail-hash/vite'
 
@@ -21,18 +20,6 @@ export default defineConfig(async () => {
     },
     plugins: [
       Inspect(),
-      GitChangelog({
-        repoURL: () => githubRepoLink,
-      }),
-      GitChangelogMarkdownSection({
-        getContributorsTitle: (): string => {
-          return '贡献者'
-        },
-        excludes: [
-          'toc.md',
-          'index.md',
-        ],
-      }),
       PageProperties(),
       PagePropertiesMarkdownSection({
         excludes: [
