@@ -24,7 +24,7 @@ export const creators: Creator[] = [
     avatar: '',
     username: 'FreLanita',
     title: '一条六边形咸鱼',
-    desc: '画画、手工、VRChat',
+    desc: '正在成为创作者',
     links: [
       { type: 'github', icon: 'github', link: 'https://github.com/FreLanita' },
     ],
